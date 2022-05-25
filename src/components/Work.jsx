@@ -1,5 +1,5 @@
 import React from 'react'
-import WorkImg from '../assets/workImg.jpeg'
+import WorkImg from '../assets/workImg.png'
 
 const Work = () => {
   return (
@@ -20,13 +20,13 @@ const Work = () => {
                     {/*Hover effects*/}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            React Js Application
+                            Unify Project
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href='/'>
+                            <a href="https://unify-sti.vercel.app" target="_blank" rel="noreferrer noopener">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='/'>
+                            <a href='https://github.com/Juliosc1/porfolio' target="_blank" rel="noreferrer noopener">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
