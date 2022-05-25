@@ -1,0 +1,40 @@
+.homeContainer {
+    max-width: 1000px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.viewWorkBtn {
+    border-width: 2px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.viewWorkBtn, .arrowInBtn {
+    color: rgb(255 255 255);
+}
+
+.viewWorkBtn:hover {
+    background-color: rgb(251 146 60);
+    border-color: rgb(251 146 60);
+}
+
+.arrowInBtn:hover {
+    transition-duration: 300ms;
+    --tw-rotate: 90deg;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}

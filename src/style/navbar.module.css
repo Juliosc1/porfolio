@@ -76,6 +76,7 @@
         margin-left: -100px;
         transition-duration: 300ms;
         background-color: rgb(37 99 235);
+        border-radius: 5px;
     }
     
     .socialIconsLinkedin:hover {
@@ -91,6 +92,7 @@
         margin-left: -100px;
         transition-duration: 300ms;
         background-color: #333333;
+        border-radius: 5px;
     }
     
     .socialIconsGithub:hover {
@@ -106,6 +108,7 @@
         margin-left: -100px;
         transition-duration: 300ms;
         background-color: rgb(111 194 176);
+        border-radius: 5px;
     }
     
     .socialIconsMail:hover {

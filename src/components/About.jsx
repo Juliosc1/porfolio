@@ -1,4 +1,5 @@
 import React from 'react'
+import profileImg from './../assets/profile.jpg'
 
 const About = () => {
   return (
@@ -16,6 +17,7 @@ const About = () => {
                 <div className='sm:text-right text-4xl font-bold'>
                     <p>Hi. I'm Julio, nice to meet you. Please take a look around</p>
                 </div>
+                <img className='w-40 mx-auto' src={profileImg} alt="Html icon"></img>
                 <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Beatae maiores eius quo nisi impedit delectus voluptas laudantium optio rerum 
