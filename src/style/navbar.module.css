@@ -1,0 +1,124 @@
+.navbarContainer {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #222629;
+    color: rgb(209 213 219);
+}
+
+.nameLogo p {
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+}
+
+.meny {
+    display: none;
+}
+
+.hamburger {
+    z-index: 10;
+}
+
+/* .hamburgerMeny {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: #0a192f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.hamburgerMenyLi {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.socialIcons {
+    display: none;
+}
+
+
+@media (min-width: 768px) {
+    .meny {
+        display: flex;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .socialIcons {
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        top: 35%;
+        left: 0%;
+    }
+
+    .socialIconsLinkedin {
+        width: 160px;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: -100px;
+        transition-duration: 300ms;
+        background-color: rgb(37 99 235);
+    }
+    
+    .socialIconsLinkedin:hover {
+        margin-left: -10px;
+    }
+
+    .socialIconsGithub {
+        width: 160px;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: -100px;
+        transition-duration: 300ms;
+        background-color: #333333;
+    }
+    
+    .socialIconsGithub:hover {
+        margin-left: -10px;
+    }
+
+    .socialIconsMail {
+        width: 160px;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: -100px;
+        transition-duration: 300ms;
+        background-color: rgb(111 194 176);
+    }
+    
+    .socialIconsMail:hover {
+        margin-left: -10px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .socialIcons {
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        top: 35%;
+        left: 0%;
+    }
+}
