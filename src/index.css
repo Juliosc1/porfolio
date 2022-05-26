@@ -6,11 +6,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 h1, h2 {
-    font-family: ui-sans-serif;
+    font-family: 'serif, Times New Roman', Times;
 }
 
 p {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif, Arial, Helvetica;
 }
 
 @layer base {
