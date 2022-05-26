@@ -1,0 +1,79 @@
+.container {
+    width: 100%;
+    color: rgb(209 213 219);
+    background-color: #0a192f;
+}
+
+.innerContainer {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    padding-bottom: 2rem;
+}
+
+.workTitle {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    display: inline;
+    border-bottom-width: 4px;
+    color: rgb(209 213 219);
+    border-color: #F78726;
+}
+
+.gridContainer {
+    display: grid;
+    gap: 1rem;
+}
+
+.item {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.one {
+    opacity: 0;
+}
+
+.one:hover {
+    opacity: 1;
+}
+
+@media (min-width: 640px) {
+    .gridContainer {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .item {
+        max-width: 640px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        height: 100vh;
+    }
+
+    .gridContainer {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .item {
+        max-width: 768px;
+    }
+}
