@@ -10,6 +10,10 @@
     justify-content: center;
 }
 
+.welcomeText {
+    color: #F78726;
+}
+
 .viewWorkBtn {
     border-width: 2px;
     padding-left: 1rem;
@@ -29,8 +33,8 @@
 }
 
 .viewWorkBtn:hover {
-    background-color: rgb(251 146 60);
-    border-color: rgb(251 146 60);
+    background-color: #F78726;
+    border-color: #F78726;
 }
 
 .arrowInBtn:hover {
