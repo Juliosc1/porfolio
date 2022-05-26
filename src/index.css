@@ -9,8 +9,13 @@ h1, h2 {
     font-family: 'serif, Times New Roman', Times;
 }
 
+h3 {
+    font-family: sans-serif, Arial, Helvetica;
+}
+
 p {
     font-family: sans-serif, Arial, Helvetica;
+    color: rgb(209 213 219)
 }
 
 @layer base {
