@@ -79,6 +79,33 @@ textarea {
     border-color: #F78726;
 }
 
+.submitSucceeded {
+    width: 100%;
+    height: 100vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #333333;
+}
+
+.backToHomeBtn {
+    width: 160px;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    color: rgb(209 213 219);
+    background-color: #F78726;
+    border-color: #F78726;
+    border-radius: 5px;
+}
+
+.backToHomeBtn:hover {
+    background-color: #f57200;
+    border-color: #f57200;
+}
+
 @media (min-width: 640px) { 
     .container {
         flex-direction: row;

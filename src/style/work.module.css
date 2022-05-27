@@ -32,10 +32,10 @@
 
 .gridContainer {
     display: grid;
-    gap: 1rem;
+    gap: 2rem;
 }
 
-.item, .one {
+.item, .projectBox {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     --tw-shadow-color: #040c16;
     --tw-shadow: var(--tw-shadow-colored);
@@ -44,41 +44,49 @@
 }
 
 .item {
-    border: 1px solid gold;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    background-size: cover;
-    background-position: center;
     height: 250px;
+    object-fit: contain;
 }
 
-.one {
+.projectBox {
     opacity: 0;
     height: 100%;
 }
 
-.item, .one:hover {
+.item, .projectBox:hover {
     background-color: #333333;
     opacity: 1;
+}
+
+.textBox {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .portfolioText {
     font-size: 1.5rem;
     line-height: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     font-weight: 700;
     color: rgb(255 255 255);
+    font-family: sans-serif, Arial, Helvetica;
     letter-spacing: 0.05em;
-}
-
-.btnContainer {
-    padding-top: 2rem;
     text-align: center;
 }
 
-.btnDemo {
+.btnContainer {
+    text-align: center;
+}
+
+.demoCodeBtn {
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -89,11 +97,16 @@
     padding-bottom: 0.75rem;
     margin: 1.5rem;
     background-color: #fff;
-    color: black;
+    color: #333333;
     font-weight: 700;
     font-size: 1.125rem;
-    line-height: 1.75rem;
-    
+    line-height: 1.75rem; 
+}
+
+.demoCodeBtn:hover {
+    color: #fff;
+    background-color: rgb(111 194 176);
+    border-color: rgb(111 194 176);
 }
 
 @media (min-width: 640px) {

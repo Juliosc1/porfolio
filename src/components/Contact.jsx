@@ -6,10 +6,11 @@ import ContactImg from './../assets/contactImg.jpg'
 function ContactForm() {
   const [state, handleSubmit] = useForm("xnqwwdyz");
   if (state.succeeded) {
-      return <div className={style.container}>
-                <p>Thanks for joining!</p>;
+      return <div className={style.submitSucceeded}>
+                <p>Thank you, Your email has been sent!
+                I will return shortly.</p>
                 <a href="https://porfolio-theta-ten.vercel.app/" >
-                  <button>Home Page</button>
+                  <button className={style.backToHomeBtn}>Home Page</button>
                 </a>
               </div>
   }
