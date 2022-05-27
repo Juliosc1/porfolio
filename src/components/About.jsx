@@ -16,14 +16,15 @@ const About = () => {
                     <p>Hi. I'm Julio, nice to meet you. Please take a look around.</p>
                 </div>
                 <img src={profileImg} alt="Html icon"></img>
-                <div className={style.presentaion}>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Beatae maiores eius quo nisi impedit delectus voluptas laudantium optio rerum 
-                        repellendus officia possimus nostrum non unde vitae totam soluta libero, 
-                        deserunt ab placeat magni perferendis. Dolor eaque explicabo sapiente quidem, 
-                        illum ex reiciendis neque error, 
-                        soluta praesentium exercitationem ea dignissimos minus!
+                <div className={style.presentation}>
+                    <p>I am currently studying Java programming at Stockholms Tekniska Institut. 
+                        I have a good ability to work together and i think it's fun to work in teams 
+                        where we find solutions together and exchange experiences with each other.
                     </p>
+                    <p className='mt-4'>I would love to meet and to be able to introduce myself in more detail
+                        and listen to how you work to see if we can find a match. 
+                    </p>
+                    <p className='mt-4 italic'>Julio Siklander</p>
                 </div>
             </div>
         </div>

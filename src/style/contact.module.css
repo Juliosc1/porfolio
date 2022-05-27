@@ -1,0 +1,96 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333333;
+}
+
+.contactTitle {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    display: inline;
+    border-bottom-width: 4px;
+    border-color: #F78726;
+    color: rgb(209 213 219);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+}
+
+.contactImg {
+    display: none;
+}
+
+input[type=text], [type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    color: rgb(209 213 219);
+    border-bottom: 2px solid #F78726;
+    outline:none;
+    background-color: #333333;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    color: rgb(209 213 219);
+    background-color: #333333;
+    border-bottom: 2px solid #F78726;
+    outline:none;
+    padding-bottom: 2rem;
+    resize: none;
+}
+
+.submitBtn {
+    color: rgb(209 213 219);
+    width: 160px;
+    border-width: 2px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.75rem/* 12px */;
+    padding-bottom: 0.75rem/* 12px */;
+    margin-top: 2rem/* 32px */;
+    margin-bottom: 2rem/* 32px */;
+    margin-top: 2rem/* 32px */;
+    margin-bottom: 2rem/* 32px */;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.submitBtn:hover {
+    background-color: #F78726;
+    border-color: #F78726;
+}
+
+@media (min-width: 640px) { 
+    .container {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .contactImg {
+        display: flex;
+        max-width: 300px;
+    }
+    
+    img { 
+        border-radius: 5px;
+    }
+}
