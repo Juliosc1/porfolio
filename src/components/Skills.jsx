@@ -26,7 +26,7 @@ const Skills = () => {
                 <div className={style.item2}>
                     <div className='flex flex-col justify-center'>
                         <p className='text-lg font-bold text-center mt-3'>Finished courses:</p>
-                        <div className='flex flex-row gap-4 mt-3 mb-8'>
+                        <div className='flex flex-col sm:flex-row gap-4 mt-3 mb-8'>
                             <div className={style.innerItem2}>
                             <p className='text-base leading-8'> - Programming basic course <br />
                                 - Java programming A <br />

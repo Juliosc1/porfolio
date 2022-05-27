@@ -14,9 +14,7 @@ const Contact = () => {
                 <p className='text-gray-300 py-4'>Submit the form below or shoot me an eamil - julio.siklander@gmail.com</p>
             </div>
             <input className='bg-[#ccd6f6] p-2' type="text" placeholder='name' name='name' />
-            <label htmlFor="email">
-            Email Address
-            </label>
+            <label htmlFor="email"></label>
             <input className='my-4 p-2 bg-[#ccd6f6]' type="email" id="email" placeholder='email' name='email' />
             <ValidationError 
             prefix="Email" 
