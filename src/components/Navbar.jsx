@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import style from './../style/navbar.module.css'
 import {HiOutlineMail} from 'react-icons/hi'
 import {Link} from 'react-scroll'
+import LogoImg from './../assets/logo.png'
 
 function Navbar() {
     const [nav, setNav] = useState(false)
@@ -11,7 +12,9 @@ function Navbar() {
   return (
     <div className={style.navbarContainer}>
         <div className={style.nameLogo}>
-            <p>Julio.S</p>
+            <Link to="home" smooth={true} duration={500}>
+                <img src={LogoImg} alt="Logo" />
+            </Link>
         </div>
 
         {/*menu*/}
@@ -41,6 +44,7 @@ function Navbar() {
                 Contact
                 </Link>
                 </li>
+                
             </ul>
 
         {/*hamburger*/}

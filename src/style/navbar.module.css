@@ -11,10 +11,9 @@
     color: rgb(209 213 219);
 }
 
-.nameLogo p {
-    color: #fff;
-    font-family: 'Anton', sans-serif;
-    font-size: 20px;
+.nameLogo {
+    width: 60px;
+    cursor: pointer;
 }
 
 .meny {

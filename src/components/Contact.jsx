@@ -9,7 +9,7 @@ function ContactForm() {
       return <div className={style.submitSucceeded}>
                 <p>Thank you, Your email has been sent!
                 I will return shortly.</p>
-                <a href="https://porfolio-theta-ten.vercel.app/" >
+                <a href="https://juliosiklander.vercel.app/" >
                   <button className={style.backToHomeBtn}>Home Page</button>
                 </a>
               </div>

@@ -27,10 +27,10 @@ const Work = () => {
                                 Portfolio
                             </span>
                             <p>This is my portfolio porject. <br/> 
-                            Here I test Tailwind for the first time and test in a few places.</p>
+                            Here I use Tailwind for the first time together with CSS.</p>
                         </div>
                         <div className={style.btnContainer}>
-                            <a href="https://porfolio-theta-ten.vercel.app/" target="_blank" rel="noreferrer noopener">
+                            <a href="https://juliosiklander.vercel.app/" target="_blank" rel="noreferrer noopener">
                                 <button className={style.demoCodeBtn}>Demo</button>
                             </a>
                             <a href='https://github.com/Juliosc1/porfolio' target="_blank" rel="noreferrer noopener">
