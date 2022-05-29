@@ -3,6 +3,9 @@ import style from './../style/work.module.css'
 import PortfolioImg from './../assets/portfolioWork.png'
 import UnifyImg from './../assets/unifyWork.png'
 import CodeNordicImg from './../assets/codeNordic.png'
+import WeatherImg from './../assets/weatherIcon.png'
+import RpsGameImg from './../assets/rpsGame.png'
+import RetroImg from './../assets/retroGame.jpg'
 
 const Work = () => {
   return (
@@ -63,8 +66,8 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-                 {/*Grid Item*/}
-                 <div style={{backgroundImage: `url(${CodeNordicImg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}} 
+                {/*Grid Item*/}
+                <div style={{backgroundImage: `url(${CodeNordicImg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}} 
                 className={style.item}>
                    
                     {/*Hover effects*/}
@@ -76,10 +79,69 @@ const Work = () => {
                             <p>Here is my very first project where I use only html and css</p>
                         </div>
                         <div className={style.btnContainer}>
-                        <a href="https://unify-sti.vercel.app" target="_blank" rel="noreferrer noopener">
+                            <a href='https://github.com/Juliosc1/teamnordic' target="_blank" rel="noreferrer noopener">
+                                <button className={style.demoCodeBtn}>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {/*Grid Item*/}
+                <div style={{backgroundImage: `url(${WeatherImg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}} 
+                className={style.item}>
+                   
+                    {/*Hover effects*/}
+                    <div className={style.projectBox}>
+                        <div className={style.textBox}>
+                            <span className={style.portfolioText}>
+                                Weather app
+                            </span>
+                            <p>Wondering what the weather will be like today.
+                               In this React project you can check what the weather will be like.
+                               Intended to drive in mobile view</p>
+                        </div>
+                        <div className={style.btnContainer}>
+                            <a href='https://github.com/Juliosc1/weather-app' target="_blank" rel="noreferrer noopener">
+                                <button className={style.demoCodeBtn}>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {/*Grid Item*/}
+                <div style={{backgroundImage: `url(${RpsGameImg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}} 
+                className={style.item}>
+                   
+                    {/*Hover effects*/}
+                    <div className={style.projectBox}>
+                        <div className={style.textBox}>
+                            <span className={style.portfolioText}>
+                                RPS Game.
+                            </span>
+                            <p>Press: Start game, and start playing the classic Rock Paper and Scissors game.</p>
+                        </div>
+                        <div className={style.btnContainer}>
+                        <a href="https://julio-frontend.herokuapp.com/" target="_blank" rel="noreferrer noopener">
                                 <button className={style.demoCodeBtn}>Demo</button>
                             </a>
-                            <a href='https://github.com/Juliosc1/unify' target="_blank" rel="noreferrer noopener">
+                            <a href='https://github.com/Juliosc1/sti-frontend' target="_blank" rel="noreferrer noopener">
+                                <button className={style.demoCodeBtn}>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {/*Grid Item*/}
+                <div style={{backgroundImage: `url(${RetroImg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}} 
+                className={style.item}>
+                   
+                    {/*Hover effects*/}
+                    <div className={style.projectBox}>
+                        <div className={style.textBox}>
+                            <span className={style.portfolioText}>
+                                DinosaurBattle
+                            </span>
+                            <p>Coded in Java, a little mine game</p>
+                        </div>
+                        <div className={style.btnContainer}>
+                            <a href='https://github.com/Juliosc1/DinosaurBattle' target="_blank" rel="noreferrer noopener">
                                 <button className={style.demoCodeBtn}>Code</button>
                             </a>
                         </div>
