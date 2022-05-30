@@ -93,16 +93,14 @@ const Work = () => {
                     <div className={style.projectBox}>
                         <div className={style.textBox}>
                             <span className={style.portfolioText}>
-                                Weather app
+                                Weather app - Coming soon!
                             </span>
                             <p>Wondering what the weather will be like today.
                                In this React project you can check what the weather will be like.
                                Intended to drive in mobile view</p>
                         </div>
                         <div className={style.btnContainer}>
-                            <a href='https://github.com/Juliosc1/weather-app' target="_blank" rel="noreferrer noopener">
-                                <button className={style.demoCodeBtn}>Code</button>
-                            </a>
+                            
                         </div>
                     </div>
                 </div>
